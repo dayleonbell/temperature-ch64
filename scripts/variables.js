@@ -56,3 +56,16 @@ let aVariable = 30
 // create and assign the value
 let anotherVariable = 50;
 console.log(aVariable, anotherVariable);
+
+
+const weekDays = 7;
+console.log(weekDays);
+//constant won't change
+const daysInWeek = 7;
+//the variable changes
+let vacationDays = 14;
+
+let totalDays = daysInWeek + vacationDays;
+
+// now vacation change
+vacationDays = 21;
